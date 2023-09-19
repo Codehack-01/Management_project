@@ -23,4 +23,8 @@ body {
     #cta {
         background-image: url('https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/bg-simplify-section-mobile.svg');
     }
+
+    .css-gap {
+        margin-bottom: 50px;
+    }
 }
