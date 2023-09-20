@@ -45,13 +45,13 @@ body {
     top: 0;
     left: 0;
     width: 24px;
-    height: 24px;
+    height: 2px;
     background: #000;
 }
 
-.hamburger-middle {
+/* .hamburger-middle {
     transform: translateY(7px);
 }
 .hamburger-bottom {
     transform: translateX(14px);
-}
+} */
