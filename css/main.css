@@ -759,11 +759,6 @@ video {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
-.bg-brightRed {
-  --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
-}
-
 .bg-brightRedSupLight {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
@@ -777,6 +772,11 @@ video {
 .bg-veryLightGray {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
+}
+
+.bg-verylightBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -866,11 +866,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.text-brightRed {
-  --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
 }
 
 .text-darkGrayishBlue {
@@ -978,11 +973,6 @@ body {
   position: fixed;
 }
 
-.hover\:bg-brightRedLight:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -991,11 +981,6 @@ body {
 .hover\:bg-lightBlue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-Blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:text-brightRed:hover {
