@@ -759,11 +759,6 @@ video {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
-.bg-brightRedSupLight {
-  --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
-}
-
 .bg-veryDarkBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
@@ -904,7 +899,7 @@ body {
 @media(max-width: 576px) {
   body {
     background-position: 50px -50px;
-    background-size: 500px;
+    background-size: 450px;
   }
 
   #cta {
@@ -1056,6 +1051,10 @@ body {
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
