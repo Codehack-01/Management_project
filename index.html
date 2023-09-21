@@ -7,7 +7,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="relative container mx-auto p-6 ">
+    <nav class="relative container mx-auto p-6">
       <!-- flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -33,7 +33,10 @@
           Get Started
         </a>
         <!-- Hamburger icon -->
-        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
           <span class="hamburger-top"></span>
           <span class="hamburger-middle"></span>
           <span class="hamburger-bottom"></span>
@@ -41,7 +44,10 @@
       </div>
       <!-- Mobile menu -->
       <div class="md:hidden">
-        <div id="menu" class="absolute flex-col items-center self-end hidden  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md nav-css">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md nav-css"
+        >
           <a href="#">Pricing</a>
           <a href="#">Products</a>
           <a href="#">About Us</a>
@@ -58,11 +64,19 @@
       >
         <!-- Left item -->
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-          <h1
+          <!-- <h1
             class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
           >
             Bring everyone together to build better products
+          </h1> -->
+          <h1 class="max-w-md text-4xl font-bold text-center text-slate-900 md:text-5xl md:text-left">
+            Bring everyone together to
+            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-blue-600 relative inline-block">
+              <span class="relative text-white">build</span>
+            </span>
+            better products
           </h1>
+          
           <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum magni
             dignissimos unde nulla repellendus minima praesentium quisquam
@@ -78,7 +92,7 @@
         </div>
         <!-- Images -->
         <div class="md:w-1/2">
-          <img src="img/anime1.png" class="md:justify-center" alt="">
+          <img src="img/anime1.png" class="" alt="" />
           <!-- <img
             src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/illustration-intro.svg"
             alt=""
@@ -113,9 +127,7 @@
             <!--Heading -->
             <div class="rounded-l-full bg-verylightBlue md:bg-transparent">
               <div class="flex items-center space-x-2">
-                <div
-                  class="px-4 py-2 text-white rounded-full md:py-1 bg-Blue"
-                >
+                <div class="px-4 py-2 text-white rounded-full md:py-1 bg-Blue">
                   01
                 </div>
                 <h3 class="text-base font-bold md:mb-4 md:hidden">
@@ -143,9 +155,7 @@
             <!--Heading -->
             <div class="rounded-l-full bg-verylightBlue md:bg-transparent">
               <div class="flex items-center space-x-2">
-                <div
-                  class="px-4 py-2 text-white rounded-full md:py-1 bg-Blue"
-                >
+                <div class="px-4 py-2 text-white rounded-full md:py-1 bg-Blue">
                   02
                 </div>
                 <h3 class="text-base font-bold md:mb-4 md:hidden">
@@ -173,9 +183,7 @@
             <!--Heading -->
             <div class="rounded-l-full bg-verylightBlue md:bg-transparent">
               <div class="flex items-center space-x-2">
-                <div
-                  class="px-4 py-2 text-white rounded-full md:py-1 bg-Blue"
-                >
+                <div class="px-4 py-2 text-white rounded-full md:py-1 bg-Blue">
                   03
                 </div>
                 <h3 class="text-base font-bold md:mb-4 md:hidden">
@@ -288,7 +296,7 @@
         <div>
           <a
             href="#"
-            class="p-3 px-6 pt-2  bg-white rounded-full shadow-2xl baseline hover:bg-gray-900 hover:text-white"
+            class="p-3 px-6 pt-2 bg-white rounded-full shadow-2xl baseline hover:bg-gray-900 hover:text-white"
           >
             Get Started
           </a>
@@ -309,13 +317,21 @@
             Copyright &copy; 2022, All Rights Reserved
           </div>
           <div>
-            <img src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/logo-white.svg" class="h-8" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/logo-white.svg"
+              class="h-8"
+              alt=""
+            />
           </div>
           <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
             <!-- Links -->
             <a href="#">
-              <img src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-facebook.svg" alt="" class="h-8" />
+              <img
+                src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-facebook.svg"
+                alt=""
+                class="h-8"
+              />
             </a>
             <a href="#">
               <img
@@ -325,13 +341,25 @@
               />
             </a>
             <a href="#">
-              <img src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-twitter.svg" alt="" class="h-8" />
+              <img
+                src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-twitter.svg"
+                alt=""
+                class="h-8"
+              />
             </a>
             <a href="#">
-              <img src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-pinterest.svg" alt="" class="h-8" />
+              <img
+                src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-pinterest.svg"
+                alt=""
+                class="h-8"
+              />
             </a>
             <a href="#">
-              <img src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-instagram.svg" alt="" class="h-8" />
+              <img
+                src="https://raw.githubusercontent.com/bradtraversy/tailwind-landing-page/249d73eaa143aa213a5d56de2b2a941f68b20a7a/img/icon-instagram.svg"
+                alt=""
+                class="h-8"
+              />
             </a>
           </div>
         </div>
@@ -355,11 +383,21 @@
         <div class="flex flex-col justify-between">
           <form>
             <div class="flex space-x-3">
-              <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Send your inbox">
-              <button class="px-6 py-2 text-white rounded-full bg-Blue hover:bg-lightBlue focus:outline-none">Go</button>
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Send your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-Blue hover:bg-lightBlue focus:outline-none"
+              >
+                Go
+              </button>
             </div>
           </form>
-          <div class="hidden text-white md:block">Copyright &copy; 2022, All Rights Reserved.</div>
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2022, All Rights Reserved.
+          </div>
         </div>
       </div>
     </footer>
