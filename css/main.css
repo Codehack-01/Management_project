@@ -983,6 +983,10 @@ body {
   position: fixed;
 }
 
+.rate i {
+  color: #16a34a;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;

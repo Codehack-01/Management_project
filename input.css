@@ -96,3 +96,7 @@ body {
 .nav-css {
     position: fixed;
 }
+
+.rate i {
+    color: #16a34a;
+}
