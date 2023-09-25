@@ -102,31 +102,4 @@ body {
     font-size: 0.8rem;
 }
 
-/* .transition-all {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: .15s;
-}
-
-.w-full {
-    width: 100%;
-}
-.z-50 {
-    z-index: 50;
-}
-
-.top-0 {
-    top: 0;
-}
-.fixed {
-    position: fixed;
-} */
-
-/* :after, :before {
-    --tw-content: "";
-}
-*, :after, :before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
-} */
 
