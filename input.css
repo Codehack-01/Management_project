@@ -102,7 +102,7 @@ body {
     font-size: 0.8rem;
 }
 
-.transition-all {
+/* .transition-all {
     transition-property: all;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .15s;
@@ -120,7 +120,7 @@ body {
 }
 .fixed {
     position: fixed;
-}
+} */
 
 /* :after, :before {
     --tw-content: "";
@@ -129,3 +129,4 @@ body {
     box-sizing: border-box;
     border: 0 solid #e5e7eb;
 } */
+
